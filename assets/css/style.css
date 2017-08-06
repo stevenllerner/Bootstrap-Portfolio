@@ -1,0 +1,359 @@
+body {
+	background-image: url("../../assets/images/ep_naturalwhite.png");
+	font-family: arial, "helvetica neue", helvetica, sans-serif;
+	color: #777777;
+	height: 100%;
+}
+
+.container {
+	width: 100%
+}
+
+h1, h2, h3, h4 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.rownav {
+	background-color: #ffffff;
+	height: 90px;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+}
+
+h1 {
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 30px 30px;
+	float: left;
+	margin-left: 85px;
+	margin-top: -5px;
+}
+
+.a-header {
+	text-decoration: none;
+	font-size: 18px;
+	color: #777777;
+	margin: 30px 0px 40px 0px;
+	text-align: center;
+}
+
+.a-middle {
+	border-left: solid;
+	border-left-width: 	2px;
+	border-right: solid;
+	border-right-width: 2px;
+	padding: 0px 10px 0px 10px;
+}
+
+.article {
+	background-color: #ffffff;
+	margin: 40px 0px 40px 50px;
+	padding: 30px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 0px 0px 25px 0px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+}
+
+.sll-photo {
+	width: 140px;
+	float: left;
+	margin: 10px 20px 20px 0px;
+}
+
+p {
+	font: 20px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 5px 0px 30px 0px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	margin-bottom: 20px;
+}
+
+.sidebar {
+	background-color: #ffffff;
+	margin: 40px 50px 40px 50px;
+	padding: 30px;
+}
+
+.att {
+	width: 50px;
+	height: 50px;
+}
+
+.footer {
+	background-color: #666666;
+	height: 90px;
+	border-top: solid;
+	border-width: 4px;
+	border-color: #4aaaa5;
+
+}.copyR {
+	font-size: 10px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;	
+}
+
+.p-box1 {
+	width: 350px;
+	height: 180px;
+	position: relative;
+	background-image: url("../images/machine-learning.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+	float: left;
+}
+
+.p-box1 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 350px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 115px;
+}
+
+.p-box2 {
+	width: 350px;
+	height: 180px;
+	float: right;
+	position: relative;
+	background-image: url("../images/project1.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+
+.p-box2 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 350px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 115px;
+}
+.p-box3 {
+	width: 350px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background-image: url("../images/project2.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+.p-box3 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 350px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 115px;
+}
+
+.p-box4 {
+	width: 350px;
+	height: 180px;
+	float: right;
+	position: relative;
+	background-image: url("../images/presentations.jpg");
+	background-position: center center;
+	margin: 10px 10px 10px 0px;
+}
+
+.p-box4 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 350px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 115px;
+}
+
+.p-box5 {
+	width: 350px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background-image: url("../images/patents.jpg");
+	background-position: center center;
+	margin: 10px 10px 0px 0px;
+}
+
+.p-box5 h4 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #4aaaa5;
+	width: 350px;
+	text-align: center;
+	padding: 15px 0px;
+	position: absolute;
+	top: 115px;
+}
+
+.submit-button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 15px;
+	border: none;
+	margin: 10px 0px 0px 0px;
+}
+
+
+@media screen and (max-width: 1375px) {
+	article {
+		width: 50%;
+	}
+	nav {
+		width: 195px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	article {
+		width: 44%;
+	}
+	nav {
+		width: 180px;
+		padding: 25px;
+	}
+	h3 {
+		font-size: 20px;
+		padding: 5px 0px 15px 0px;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	article {
+		width: 40%;
+		margin-left: 80px;
+	}
+	h3 {
+		font-size: 18px;
+		padding: 5px 0px 15px 0px;
+	}
+	nav {
+		width: 150px;
+		padding: 15px;
+		margin-right:80px;
+	}
+	h1 {
+		margin-left: 80px;
+	}
+	#header {
+		padding-right: 80px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	article {
+		width: 80%;
+		margin-left: 40px;
+	}
+	nav {
+		width: 80%;
+		margin: 10px 0px 10px 40px;
+		float: left;
+		padding: 15px 30px 15px 30px;
+	}
+
+	#buttonG {
+		width: 50px;
+		height: 50px;
+		float: top;
+	}
+
+	#buttonL {
+		width: 50px;
+		height: 50px;
+		float: top;
+	}
+
+	#buttonS {
+		width: 50px;
+		height: 50px;
+		float: top;
+	}
+
+	h1 {
+		margin-left: 50px;
+		font-size: 28px;
+		width: 200px;
+		padding: 31px 5px;
+	}
+	#header {
+		padding-right: 50px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		margin-left: 0px;
+		padding: 31px 0px;
+		width: 100%;
+	}
+	#header {
+		padding-right: 0px;
+		height: 130px;	
+	}
+	.a-header {
+	font-size: 16px;
+	margin: 12px 0px;
+	width: 33%;
+	text-align: center;
+	}
+	#a-middle {
+	padding: 0px;
+	border-left: none;
+	border-right: none;
+	}
+	article {
+		margin-top: 40px;
+		margin-left: 25px;
+	}
+	nav {
+		width: 80%;
+		margin: 0px 0px 15px 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+

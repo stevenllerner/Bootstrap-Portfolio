@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<html lang="en-US">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Sets the page width to the width of the device and sets the zoom level to 1-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Steve Lerner</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Steven Lerner</title>
 </head>
 
 <body>
-	<div id="header">
-		<h1>Steve Lerner</h1>
-		<a class="a-header" href="contact.html">Contact</a>
-		<a class="a-header" id="a-middle"; href="portfolio.html">Portfolio</a>
-		<a class="a-header" href="index.html">About</a>		
-	</div>
-	<br>	
+<!-- class="container" puts some padding around the page; class="container-fluid" provides no padding-->	
+<div class="container">
 
-	<div>
-		<article>
+	<div class="row rownav">
+		<div class="col-md-8 col-sm-8">
+			<h1>Steve Lerner</h1>
+		</div>
+		<div class="col-md-4 col-sm-4 a-header">
+			<a href="index.html">About </a>
+			<a class="a-middle" href="portfolio.html">Portfolio</a>
+			<a href="contact.html"> Contact</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-7 col-sm-7 article">
+
 			<h2>Portfolio</h2>
 			<br>
-		<a href="http://www.slideshare.net/stevenllerner/forecasting-peer-topeerlendingrisk">		<div class="p-box1">
-				<h4>Machine Learning</h4>
-			</div>
-		</a>
+			<a href="http://www.slideshare.net/stevenllerner/forecasting-peer-topeerlendingrisk">
+				<div class="p-box1">
+					<h4>Machine Learning</h4>
+				</div>
+			</a>
+
 			<div class="p-box2">
 				<h4>Project 1</h4>
 			</div>
+
 			<br>
 			<div class="p-box3">
 				<h4>Project 2</h4>
@@ -37,28 +48,34 @@
 			<div class="p-box4">
 				<h4>Presentations</h4>
 			</div>
+			
 			<br>
 			<div class="p-box5">
 				<h4>Patents</h4>
 			</div>
-		</article>
+			
+		</div>
 
-
-		<nav>
-		<h3>Connect with Me</h3>
-		<a href="https:/github.com/stevenllerner/"><img id="buttonG"; src="assets/images/Github.png" alt="Github";></a>
-
-		<a href="https://www.linkedin.com/in/sllerner/"><img id="buttonL"; src="assets/images/linkedin.png" alt="LinkedIn";></a>
-		
-		<a href="https://stackoverflow.com/users/8312944/steve-lerner?tab=profile"><img id="buttonS"; src="assets/images/overflow.png" alt="Stack Overflow";></a>
-		</nav>
+		<div class="col-md-3 col-sm-3 sidebar">
+			<h3>Connect with Me</h3>
+				<a href="https:/github.com/stevenllerner/"><img class="att"; src="assets/images/Github.png" alt="Github";>
+				</a>
+				<a href="https://www.linkedin.com/in/sllerner/"><img class="att"; src="assets/images/linkedin.png" alt="LinkedIn";>
+				</a>			
+				<a href="https://stackoverflow.com/users/8312944/steve-lerner?tab=profile"><img class="att"; src="assets/images/overflow.png" alt="Stack Overflow";>
+				</a>				
+		</div>
 	</div>
 
-	
-	<footer>
-		<p id="copyR">&copy Copyright 2017 Steven L Lerner></p>
-	</footer>	
-	
+	<div class="row footer">
+		<p class="copyR">&copy Copyright 2017 Steven L Lerner</p>
+	</div>
+		
 
+
+
+	
+	
+</div>
 </body>
 </html>
